@@ -1,0 +1,32 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="InvalidLengthGeneric" xml:space="preserve">
+        <value>{0} is too long or too short {1} &lt; Length &lt; {2}</value>
+    </data>
+    <data name="TooLongGeneric" xml:space="preserve">
+        <value>{0} is too long. Length &lt; {1}</value>
+    </data>
+    <data name="AccuserCantBeDefendant" xml:space="preserve">
+        <value>Accuser can't be defendant</value>
+    </data>
+    <data name="VictimCantBeDefendant" xml:space="preserve">
+        <value>Victim can't be defendant</value>
+    </data>
+    <data name="BadStringContent" xml:space="preserve">
+        <value>{0} - string can contains only [a-zA-ZА-Яа-я0-9!,\.!@#\$%\^\&amp;\*\(\)_\-\+=\\/]</value>
+    </data>
+    <data name="CantAllocMagistrate" xml:space="preserve">
+        <value>Can't alloc a magistrate on current act</value>
+    </data>
+</root>

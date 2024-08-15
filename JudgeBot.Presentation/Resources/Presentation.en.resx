@@ -1,0 +1,128 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="InvalidCommand" xml:space="preserve">
+        <value>Unknown command</value>
+    </data>
+    <data name="VictimBtnLbl" xml:space="preserve">
+        <value>Victim 🧖</value>
+    </data>
+    <data name="DefendantBtnLbl" xml:space="preserve">
+        <value>Defendant 🥷</value>
+    </data>
+    <data name="MagistrateBtnLbl" xml:space="preserve">
+        <value>Magistrate ⚖️</value>
+    </data>
+    <data name="AccuserBtnLbl" xml:space="preserve">
+        <value>Accuser 🫵</value>
+    </data>
+    <data name="JuryBtnLbl" xml:space="preserve">
+        <value>Jury 🗣</value>
+    </data>
+    <data name="MyActs" xml:space="preserve">
+        <value>My acts</value>
+    </data>
+    <data name="MagistrateList" xml:space="preserve">
+        <value>Magistrate list</value>
+    </data>
+    <data name="BackBtnLbl" xml:space="preserve">
+        <value>Back ⬅️</value>
+    </data>
+    <data name="ActListDefendantDescription" xml:space="preserve">
+        <value>Your list of acts as defendant:</value>
+    </data>
+    <data name="MyActsMenuDescription" xml:space="preserve">
+        <value>Show your acts as...</value>
+    </data>
+    <data name="StartMenuDescription" xml:space="preserve">
+        <value>Hello {0}. Shall we jail anyone today?</value>
+    </data>
+    <data name="LanguageBtnLbl" xml:space="preserve">
+        <value>Language</value>
+    </data>
+    <data name="RussianBtnLbl" xml:space="preserve">
+        <value>Russian 🇷🇺</value>
+    </data>
+    <data name="EnglishBtnLbl" xml:space="preserve">
+        <value>English 🇺🇸</value>
+    </data>
+    <data name="SettingsMenuDescription" xml:space="preserve">
+        <value>Settings</value>
+    </data>
+    <data name="SettingsMenuBtnLbl" xml:space="preserve">
+        <value>Settings ⚙️</value>
+    </data>
+    <data name="LanguageMenuDescription" xml:space="preserve">
+        <value>Choose language</value>
+    </data>
+    <data name="NewActSceneSetActName" xml:space="preserve">
+        <value>Enter act name</value>
+    </data>
+    <data name="InvalidActName" xml:space="preserve">
+        <value>Invalid act name</value>
+    </data>
+    <data name="NewActSceneSetActDescription" xml:space="preserve">
+        <value>Enter act description</value>
+    </data>
+    <data name="InvalidActDescription" xml:space="preserve">
+        <value>Invalid act description</value>
+    </data>
+    <data name="NewActSceneSetActVictim" xml:space="preserve">
+        <value>Who's victim? Choose or mention</value>
+    </data>
+    <data name="NewActSceneSetActVictimIsMe" xml:space="preserve">
+        <value>It's me</value>
+    </data>
+    <data name="NewActSceneSetActVictimIsNobody" xml:space="preserve">
+        <value>Nobody </value>
+    </data>
+    <data name="NewActSceneSetActVictimInvalidMention" xml:space="preserve">
+        <value>Noooo! Mention please.</value>
+    </data>
+    <data name="NewActSceneSetActApproveAct" xml:space="preserve">
+        <value>Approve act creating</value>
+    </data>
+    <data name="Yes" xml:space="preserve">
+        <value>Yes</value>
+    </data>
+    <data name="No" xml:space="preserve">
+        <value>No</value>
+    </data>
+    <data name="Absent" xml:space="preserve">
+        <value>Absent</value>
+    </data>
+    <data name="WillBeAssigned" xml:space="preserve">
+        <value>Will be assigned</value>
+    </data>
+    <data name="ActSuccessfullyCreated" xml:space="preserve">
+        <value>Act successfully created! 
+Act ID: {0}</value>
+    </data>
+    <data name="ActDoesNotCreated" xml:space="preserve">
+        <value>Act was not created</value>
+    </data>
+    <data name="ActDoesNotCreatedException" xml:space="preserve">
+        <value>Act was not created due to error: {0}</value>
+    </data>
+    <data name="HelpCommandBtnLbl" xml:space="preserve">
+        <value>Help❓</value>
+    </data>
+    <data name="HelpCommandDescription" xml:space="preserve">
+        <value>Hello. This is JudgeBot - a bot for trials and punishments.
+
+Here you can create a case against someone who has wronged you.
+Here you can also view cases against yourself and much more!
+
+If you want to create a new case, just tag me in a message with the user in question.</value>
+    </data>
+</root>

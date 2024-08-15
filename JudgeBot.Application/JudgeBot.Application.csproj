@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Queries\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\JudgeBot.Core\JudgeBot.Core.csproj" />
+      <ProjectReference Include="..\JudgeBot.Infrastructure\JudgeBot.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Localization\JudgeBotResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>JudgeBotResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Localization\JudgeBotResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>JudgeBotResources.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>
